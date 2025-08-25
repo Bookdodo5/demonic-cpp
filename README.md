@@ -1,35 +1,6 @@
-# vue-project
+# C++ Demonic Quiz (Not really though, could be harder)
 
-This template should help get you started developing with Vue 3 in Vite.
+An interactive quiz application built with **Vue 3** and **shadcn/ui components**, with anti-cheating mechanism to fail immediately after the mouse leave the quiz screen for 10 seconds.  
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+There is a **studentID** and **passcode** system for entering the quiz screen, and the **startcode** to start the quiz.
+(Though currently, anything that matches the regex is valid.)
